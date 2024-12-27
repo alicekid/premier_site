@@ -1,6 +1,6 @@
 h1{
     color:aquamarine;
-    border: 2px;
+    border-style: solid;
 
 }
 
@@ -12,11 +12,17 @@ h1{
     text-align:center;
 }
 
-p{
-    margin: 20px;
+.lien_accueil{
+    border-style: solid ;
+    border-color: black; 
 }
 
-.lien{
-    border:yellow;
-    
+.lien_menu{
+    border-style: solid ;
+    border-color: black; 
+}
+
+.lien_index{
+    border-style: solid ;
+    border-color: black; 
 }
