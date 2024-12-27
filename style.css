@@ -1,3 +1,13 @@
 h1{
     color:aquamarine;
+
+}
+
+.banniere{
+    padding: 100px 0;
+    background: url('banniere_body.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 600px;
 }
