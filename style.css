@@ -1,15 +1,22 @@
 h1{
     color:aquamarine;
+    border: 2px;
 
 }
 
 .banniere{
     padding: 100px 0;
     background: url('banniere_body.jpg');
-    background-size: cover;
-    background-position: center;
-    width:auto;
-    
-    text-align: center;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+}
+
+p{
+    margin: 20px;
+}
+
+.lien{
+    border:yellow;
     
 }
