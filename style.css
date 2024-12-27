@@ -8,6 +8,6 @@ h1{
     background: url('banniere_body.jpg');
     background-size: cover;
     background-position: center;
-    width: 500px;
-    height: 600px;
+    width:auto;
+    height: 40%;
 }
