@@ -15,14 +15,50 @@ h1{
 .lien_accueil{
     border-style: solid ;
     border-color: black; 
+    width:20%;
+    text-align: center;
 }
 
 .lien_menu{
     border-style: solid ;
     border-color: black; 
+    width:20%;
+    text-align: center;
 }
 
 .lien_index{
     border-style: solid ;
     border-color: black; 
+    width:20%;
+    text-align: center;
+}
+
+h2:hover{
+    opacity: 20%;
+    text-decoration: underline;
+    display: flex;
+}
+
+p:active{
+    text-decoration-color: blueviolet;
+}
+
+.conteneur{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.one{
+    order: 1;
+}
+
+.two{
+    order: 2;
+}
+
+.three{
+    order: 3;
 }
