@@ -13,15 +13,13 @@ h1{
 }
 
 .lien_page_web{
-    display:grid;
+    display:flex;
+    justify-content: space-between;
+    gap: 20%;
 }
 
 .lien_accueil{
-    display:grid;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 1;
+    
     border-style: solid ;
     border-color: black; 
     width:20%;
@@ -29,11 +27,6 @@ h1{
 }
 
 .lien_menu{
-    display:grid;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 2;
-    grid-column-end: 2;
     border-style: solid ;
     border-color: black; 
     width:20%;
@@ -41,11 +34,6 @@ h1{
 }
 
 .lien_index{
-    display:grid;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 3;
-    grid-column-end: 3;
     border-style: solid ;
     border-color: black; 
     width:20%;
@@ -53,11 +41,6 @@ h1{
 }
 
 .lien_album_photo{
-    display:grid;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 4;
-    grid-column-end: 4;
     border-style: solid ;
     border-color: black; 
     width:20%;
@@ -223,7 +206,12 @@ p:active{
     
 }
 
-
+.item_album_photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    gap:2%;
+}
 
 .picture_2{
     display:grid;
