@@ -44,21 +44,134 @@ p:active{
 }
 
 .conteneur{
-    display: flex;
-    flex-direction:column;
-    justify-content:space-between;
-    height: 100px;
-    align-items: center;
+    display: grid;
+    
 }
 
-.one{
-    order: 1;
+.item_one {
+    display:grid;
+    justify-items: center;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    
+  }
+
+.item_two{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
 }
 
-.two{
-    order: 2;
+.item_three{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
+
 }
 
-.three{
-    order: 3;
+.item_four{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1 ;
+    grid-column-end: 6;
+}
+
+.item_five{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item_six{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.item_seven{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.item_eight{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item_seven{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item_eight{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.item_nine{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.item_ten{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+.item_eleven{
+    display: grid;
+    justify-items: center;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item_twelve{
+    display:grid;
+    justify-items: center;
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 6;
 }
