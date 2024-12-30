@@ -22,5 +22,36 @@ html, body{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #f1f1f1;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
+.container h1{
+    margin: 0;
+    font-size: 70px;
+}
+
+.container h1 span{
+    border: 6px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen{
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+}
+
+.button{
+    color: #313131;
+    padding: 10px;
+    background: white;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+
+.button:hover{
+    opacity: .6;
+}
