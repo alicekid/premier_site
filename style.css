@@ -68,12 +68,13 @@ nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px;
+    margin-left: 55px;
     
 }
 
 ul li a{
     color: #fff;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.5rem;
     text-decoration: none;
 }
 
@@ -90,6 +91,40 @@ ul li a:hover{
 .menu li a{
     text-decoration: none;
 }
+
+.diplome{
+    
+    color: #fff;
+    padding:90px;
+    width:180px;
+    height: 180px;
+    margin-right: -15px;
+    mix-blend-mode: multiply;
+    display: inline-block;
+    margin-top: 100px ;
+    margin-left: 200px;
+    width: 10%;
+
+
+    
+}
+
+.d1{
+    background: #ffc30f;
+
+}
+.d2{
+    background: #ff5733;
+    margin-left: -20px;
+}
+.d3{
+    background: burlywood;
+    margin-left: -20px;;
+}
+
+
+
+
 
 
 
