@@ -68,6 +68,7 @@ nav ul li{
     display: inline-block;
     padding: 10px;
     margin-left: 55px;
+    text-decoration: none;
 }
 
 ul li a{
@@ -84,6 +85,7 @@ ul li a:hover{
 .menu li{
     float:left;
     padding: 35px;
+    text-decoration: none;
 }
 
 .menu li a{
@@ -164,6 +166,27 @@ ul li a:hover{
     border-radius: 60px;
     padding: 25px;
     margin-left: -10px;
+}
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid black;
+    background: #f1f1f1;
+    color: #313131;
+    margin-top: 850px;
+    text-decoration: none;
+
+}
+
+.contenu_footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-items: flex-start;
+    font-size: 20px;
+    padding: 0 0 0;
+
 }
 
 
