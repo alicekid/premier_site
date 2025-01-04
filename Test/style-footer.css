@@ -1,0 +1,140 @@
+::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid  black;
+    width: 100%;
+    background: #f1f1f1;
+    color: black;
+}
+
+.contenu-footer{
+    width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+
+}
+
+img{
+    width: 20px;
+}
+
+.bloc{
+    width:25%;
+    margin: 0 30px;
+}
+
+/* contact */
+
+.footer-coordonnee h3,
+.footer-activite h3,
+.footer-services h3{
+    position: relative;
+    right:30px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.footer-coordonnee p{
+    padding: 5px;
+}
+
+/* activite */
+
+.liste-coordonnee,
+.liste-activite,
+.liste-mes_services{
+    list-style-type: none;
+}
+
+.liste-coordonnee a{
+    text-decoration: none;
+    color:#333;
+}
+
+.liste-coordonnee a:hover{
+    color:rgb(3,3,3)
+}
+
+.liste-activite a{
+    text-decoration: none;
+    color:#333;
+}
+
+.liste-activite a:hover{
+    color: rgb(3,3,3);
+}
+
+.liste-mes_services a{
+    text-decoration: none;
+    color:#333;
+}
+
+.liste-mes_services a:hover{
+    color: rgb(3,3,3);
+}
+
+/* Medias */
+
+.liste-coordonnee img{
+    width: 30px;
+    margin: 10px;
+}
+
+.liste-coordonnee a{
+    margin-top: 20px;
+    text-decoration: none;
+    color:#333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.liste-coordonnee{
+    position: relative;
+    right: 10px;
+}
+
+/* Coordonnees requetes */
+
+@media screen and (max-width: 1300px){
+
+    .contenu-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc {
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 50px;;
+    }
+}
+
+
+
+
+
+
+
+
