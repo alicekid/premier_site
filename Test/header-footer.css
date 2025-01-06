@@ -1,0 +1,203 @@
+::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: green;
+    width: 1400px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+ul li a{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+ul li a:hover{
+    color:red;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.liste {
+    position: relative;
+    top: 60px;
+    left: 270px;
+}
+
+footer{
+    flex-shrink: 0;
+    border-top: 1px solid  black;
+    margin-top: 1000px;
+    width: 100%;
+    background: #f1f1f1;
+    color: black;
+}
+
+.contenu-footer{
+    width:1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding:0 0 0;
+
+}
+
+img{
+    width: 20px;
+}
+
+.bloc{
+    width:25%;
+    margin: 0 30px;
+}
+
+/* contact */
+
+.footer-coordonnee h3,
+.footer-activite h3,
+.footer-services h3{
+    position: relative;
+    right:40px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.footer-activite h3{
+    position: relative;
+    right: 20px;
+}
+
+.footer-coordonnee p{
+    padding: 5px;
+}
+
+/* activite */
+
+.liste-coordonnee,
+.liste-activite,
+.liste-mes_services{
+    list-style-type: none;
+}
+
+.liste-coordonnee a{
+    text-decoration: none;
+    color:#333;
+}
+
+.liste-coordonnee a:hover{
+    color:rgb(3,3,3)
+}
+
+.liste-activite a{
+    text-decoration: none;
+    color:#333;
+}
+
+.liste-activite a:hover{
+    color: rgb(3,3,3);
+}
+
+.liste-mes_services a{
+    text-decoration: none;
+    color:#333;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.liste-mes_services a:hover{
+    color: rgb(3,3,3);
+}
+
+/* Medias */
+
+.liste-coordonnee img{
+    width: 30px;
+    margin: 10px;
+}
+
+.liste-coordonnee a{
+    margin-top: 20px;
+    text-decoration: none;
+    color:#333;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.liste-coordonnee{
+    position: relative;
+    right: 10px;
+}
+
+.liste-activite a{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+
+}
+
+
+/* Coordonnees requetes */
+
+@media screen and (max-width: 1300px){
+
+    .contenu-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc {
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 50px;;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .contenu-footer{
+        width: 320px;
+    }
+    .bloc{
+        width: 300px;
+        margin: 30px 30px;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .bloc:nth-child(1){
+        margin-top: 0;
+    }
+
+}
+
+
+
+
