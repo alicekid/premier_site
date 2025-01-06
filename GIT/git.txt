@@ -1,0 +1,1 @@
+git init initialiser le dépôt en créant un dossier caché.git dans le dossier courant
