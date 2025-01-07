@@ -1,175 +1,97 @@
-::before, ::after{
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background: white;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100vh;
-    margin-bottom: 0;
+  line-height: 1.5;
+  font-family: "Limelight", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+    max-width: 1170px;
+    background-color: #333;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer{
+    background-color: #333;
+    padding: 70px 0;
+}
+
+.row{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-footer{
-    flex-shrink: 0;
-    border-top: 1px solid  black;
-    margin-top: 1000px;
-    width: 100%;
-    background: #f1f1f1;
-    color: black;
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
 }
 
-.contenu-footer{
-    width:1400px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 20px;
-    padding:0 0 0;
-
-}
-
-img{
-    width: 20px;
-}
-
-.bloc{
-    width:25%;
-    margin: 0 30px;
-}
-
-/* contact */
-
-.footer-coordonnee h3,
-.footer-activite h3,
-.footer-services h3{
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
     position: relative;
-    right:40px;
-    font-size: 25px;
-    padding-bottom: 20px;
-    text-decoration: underline;
+
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 255);
+    margin: 0 10px 10px 0;
     text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#ffffff;
+    transition: all 0.5s ease;
 }
 
-.footer-activite h3{
-    position: relative;
-    right: 20px;
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
 }
-
-.footer-coordonnee p{
-    padding: 5px;
-}
-
-/* activite */
-
-.liste-coordonnee,
-.liste-activite,
-.liste-mes_services{
-    list-style-type: none;
-}
-
-.liste-coordonnee a{
-    text-decoration: none;
-    color:#333;
-}
-
-.liste-coordonnee a:hover{
-    color:rgb(3,3,3)
-}
-
-.liste-activite a{
-    text-decoration: none;
-    color:#333;
-}
-
-.liste-activite a:hover{
-    color: rgb(3,3,3);
-}
-
-.liste-mes_services a{
-    text-decoration: none;
-    color:#333;
-    display: flex;
-    align-items: center;
-    margin: 20px;
-}
-
-.liste-mes_services a:hover{
-    color: rgb(3,3,3);
-}
-
-/* Medias */
-
-.liste-coordonnee img{
-    width: 30px;
-    margin: 10px;
-}
-
-.liste-coordonnee a{
-    margin-top: 20px;
-    text-decoration: none;
-    color:#333;
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-}
-
-.liste-coordonnee{
-    position: relative;
-    right: 10px;
-}
-
-.liste-activite a{
-    display: flex;
-    align-items: center;
-    margin: 40px;
-
-}
-
-
-/* Coordonnees requetes */
-
-@media screen and (max-width: 1300px){
-
-    .contenu-footer{
-        width: 700px;
-        flex-wrap: wrap;
-    }
-    .bloc {
-        width: 40%;
-        margin: 0 0;
-    }
-    .bloc:nth-child(1),
-    .bloc:nth-child(2){
-        margin-bottom: 50px;;
-    }
-}
-
-@media screen and (max-width: 800px){
-    .contenu-footer{
-        width: 320px;
-    }
-    .bloc{
-        width: 300px;
-        margin: 30px 30px;
-    }
-    .bloc:nth-child(1),
-    .bloc:nth-child(2) {
-        margin-bottom: 30px;
-    }
-    .bloc:nth-child(1){
-        margin-top: 0;
-    }
-
-}
-
-
-
-
-
-
-
