@@ -24,7 +24,7 @@ body{
 
 } 
 
-li{
+header li {
     list-style: none;
     display: inline-block;
     padding: 30px;
@@ -86,7 +86,7 @@ ul{
     text-decoration: none;
     font-weight: 300;
     color: #bbbbbb;
-    display: inline-block;
+    display: block;
     transition: all 0.3s ease;
 }
 
