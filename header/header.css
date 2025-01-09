@@ -30,6 +30,12 @@ header li {
     padding: 30px;
 }
 
+header li:before {
+    content: '>';
+    color: lightcoral;
+    margin-right: 1rem;
+}
+
 ul li a{
     color: #ffffff;
     letter-spacing: 1.5px;
